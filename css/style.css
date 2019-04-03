@@ -146,12 +146,28 @@ margin-left: 1rem;
   .news:nth-child(5n+1) {
     width: 98%;
   }
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search {
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 767px) {
   .news {
     width: 98%;
     min-width: 98%;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search {
+    margin-top: 1.5rem;
   }
 }
 
